@@ -31,6 +31,10 @@ app.use(function (req, res, next) {
   next(createError(404));
 });
 
+app.get("/deploy", (req, res) => {
+  res.send("Success");
+});
+
 // error handler
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development
