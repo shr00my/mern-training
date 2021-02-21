@@ -1,0 +1,139 @@
+.row-bg {
+  height: calc(100vh - 130px);
+}
+
+.item-price {
+  margin-bottom: 8px;
+}
+
+.card-body {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card,
+.row-bg {
+  z-index: 1;
+}
+
+.header-area {
+  background: #e2ebf0;
+}
+
+.header-bottom {
+  padding: 0px 170px;
+}
+
+.f-right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu > nav > ul > li {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-item {
+  color: #000000 !important;
+  padding: 39px 18px !important;
+  display: block !important;
+  font-size: 24px !important;
+  transition: all 0.3s ease-out 0s !important;
+  text-transform: capitalize !important;
+}
+
+.menu-item-hover:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.header-bottom > .main-menu > ul > li.hot {
+  position: relative;
+}
+
+.header-right {
+  display: flex !important;
+}
+
+.header-right > li {
+  padding-left: 20px;
+}
+
+.shopping-card span {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: #4e4e4e;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header-sticky ul li a {
+  padding: 10px 19px;
+}
+
+.shopping-card {
+  position: relative;
+}
+
+.shopping-card-before {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #00b1ff;
+  color: #fff;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 15px;
+  top: 0px;
+  right: -15px;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -ms-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+}
+
+.showCart {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  background: #8e9eab;
+  z-index: 5;
+  padding: 10px;
+  border: 1px solid #8e9eab;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.cart-details {
+  align-self: flex-start;
+  padding-bottom: 5px;
+}
+.phone {
+  margin-right: 10rem;
+}
+
+.phone-style {
+  color: #000;
+}
+
+.phone-style:hover {
+  text-decoration: underline;
+  color: #000;
+}

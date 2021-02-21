@@ -1,0 +1,22 @@
+.bg {
+  background-image: url("../images//bg/bg.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-size: contain;
+  object-fit: fill;
+  position: absolute;
+  width: 100%;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.list-wrapper {
+  padding: 15px;
+}
+
+.h3 {
+  padding-left: 50px;
+}
